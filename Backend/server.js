@@ -15,7 +15,7 @@ mongoose
   .connect(process.env.MONGODB_URI)
   .then(() => {
     console.log("Connect to the database");
-  })
+  }) a
   .catch((err) => {
     console.log("data:  ",process.env.MONGODB_URI)
     console.log("err:: ", err.message);
